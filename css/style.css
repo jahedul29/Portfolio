@@ -1,12 +1,12 @@
 /* Import font.css */
 
-@import url("./font.css");
+@import url("font.css");
 
 /* Import variables.css */
 @import url("../partial/_variables.css");
 
 /* Import global.css */
-@import url("./global.css");
+@import url("global.css");
 
 body {
     background: url(../img/top-banner.png);
