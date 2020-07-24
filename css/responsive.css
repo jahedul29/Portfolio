@@ -1,5 +1,6 @@
 /* Responsive for Phone */
 @media only screen and (max-width: 400px) {
+
   /* Start Banner Area */
   .site-title h1 {
     font: normal 700 30px/20px var(--roboto) !important;
@@ -18,7 +19,7 @@
     padding-left: 4%;
   }
 
-  .site-main .about-area .about-title h2 > span {
+  .site-main .about-area .about-title h2>span {
     font: normal 500 35px/45px var(--roboto);
     letter-spacing: 5px;
   }
@@ -40,7 +41,7 @@
     align-items: center;
   }
 
-  .site-main .services-area .services-list > .services {
+  .site-main .services-area .services-list>.services {
     background-color: rgba(240, 250, 250, 0.978);
     width: 16rem;
     height: 80%;
@@ -59,10 +60,10 @@
   .site-main .project-area .grid .our-project {
     padding: 1rem 2px;
   }
+
   /* End Project Area */
 
   /* Start Footer Area */
-
   .footer-area {
     height: 250px;
     position: relative;
@@ -73,6 +74,7 @@
 }
 
 @media only screen and (max-width: 1020px) {
+
   .header_aria .main-menu .navbar .navbar-brand,
   .site-main .site-banner,
   .site-main .about-area,
@@ -81,24 +83,40 @@
     margin: 0%;
   }
 
+  .navbar {
+    padding: 3rem 8rem;
+  }
+
+  .site-main .about-area {
+    padding: 3% 0%;
+  }
+
+  .site-main .site-banner {
+    padding-bottom: 3%;
+  }
+
   .site-main {
-    padding: 0%;
-    margin: auto;
+    padding: 0rem 0rem !important;
+    margin: 0 !important;
+  }
+
+  .site-title {
+    text-align: center;
+    padding-bottom: 4%;
   }
 
   .site-title h1 {
     font: normal 700 50px/20px var(--roboto);
-    padding-bottom: 15px;
-    height: 3rem;
-    padding-top: 3%;
+    padding: 2%;
   }
 
   .site-main .services-area .services-title {
-    padding: 0 4%;
+    padding: 0 1%;
   }
 
   .site-main .services-area .services-list .services-container {
-    padding: 0 4rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
   }
 
   .site-main .project-area .button-group button {
@@ -107,7 +125,7 @@
     padding: 1rem 0;
   }
 
-  .site-main .project-area .grid .our-project > .title h3 {
+  .site-main .project-area .grid .our-project>.title h3 {
     font: normal 700 20px/30px var(--roboto);
   }
 
