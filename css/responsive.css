@@ -1,7 +1,13 @@
 /* Responsive for Phone */
 @media only screen and (max-width: 400px) {
-  /* Start Banner Area */
+  nav a.navbar-brand {
+    font-size: 25px !important;
+  }
 
+  nav button span {
+    font-size: 25px !important;
+  }
+  /* Start Banner Area */
   .site-title h1 {
     font: normal 700 30px/20px var(--roboto) !important;
     height: 2rem;
@@ -84,13 +90,18 @@
     max-width: none;
   }
 
+  nav a.navbar-brand {
+    font-size: 40px;
+  }
+
   nav {
-    padding: 7% 14% !important;
+    padding: 5% 14% !important;
     background-image: linear-gradient(45deg, #2f073a, #052141);
     border-radius: 0 0 10px 10px;
   }
   nav button span {
     color: white;
+    font-size: 40px;
   }
   a.nav-link {
     color: white !important;
