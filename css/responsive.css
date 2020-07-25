@@ -80,13 +80,12 @@
 
 @media only screen and (max-width: 990px) {
   .modal .modal-dialog {
-    width: 800px;
+    width: 98%;
     max-width: none;
   }
 
   nav {
-    border: 2px solid orange !important;
-    padding: 4% 14% !important;
+    padding: 7% 14% !important;
     background-image: linear-gradient(45deg, #2f073a, #052141);
     border-radius: 0 0 10px 10px;
   }
